@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>David Lindsey</h1>
+        </div>
+        <ul id = "menu__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+        <button class="menu-icon" id = "menu__button">
+            <i class="ri-menu-line"></i>
+        </button>
+    </nav>
+
+    <section class="title" id ="title">
+        <div class="title-container">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>David Lindsey</h1>
+                </div>
+    
+                <div class="btn-group">
+                    <a href = "dl-resume.pdf" download class = "btn">Download Resume</a>
+                    <a href = "#contact"class="btn">Contact Info</a>
+                </div>
+    
+                <div class = "socials">
+                    <a href = "https://github.com/david-lindsey104"class="ri-github-line"></a>
+                    <a href = "https://www.linkedin.com/in/dll104" class="ri-linkedin-box-line"></a>
+                </div>
+            </div>
+
+            <img class = "me__photo" src="./images/david-photo.jpeg" alt="photo of me">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me:</h2>
+
+        <div class="about-container">
+            <div class="about-info">
+                <p class="info-text">
+                    I am currently a sophomore at the University of Pittsburgh. I am majoring in Computer Science and minoring in Economics. I have been programming for ~6 years, starting my
+                    freshman year of highschool. My most proficient languages are Java and Python. I am a highly motivated student with a robust work-ethic who is always trying to learn more about coding.
+                </p>
+            </div>
+    
+            <img src="./images/david-texas.png" alt="">
+        </div>
+
+
+    </section>
+
+    <section class = "experience" id = "experience">
+
+        <h2 class="section-title">Experience:</h2>
+
+        <div class = "grid">
+            <div class="grid-card">
+                <span>Frontend Development:</span>
+                <ul>
+                    <li>HTML &lt;1 year</li>
+                    <li>CSS &lt;1 year</li>
+                    <li>Javascript &lt;1 year</li>
+                </ul>
+            </div>
+
+            <div class="grid-card">
+                <span>Backend Development:</span>
+                <ul>
+                    <li>Java 5 years</li>
+                    <li>Python 2 years</li>
+                </ul>
+            </div>
+
+            <div class="grid-card">
+                <span>Education:</span>
+                <ul>
+                    <li>University of Pittsburgh: 2023 - 2027 </li>
+                    <li>Bethel Park High School: 2019 - 2023</li>
+                </ul>
+            </div>
+
+            <div class="grid-card">
+                <span>Achievements/Affiliations:</span>
+                <ul>
+                    <li>Fall 2023 Dean's List</li>
+                    <li>Eagle Scout</li>
+                    <li>Computer Science Club member at Pitt</li>
+                    <li>National Honors Society (High School)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class = "projects">
+        <h2 class="section-title">Recent Projects:</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./images/website.png" alt="">
+                <h3>Portfolio Website</h3>
+                <p>A portfolio website about me, used to display my accomplishments and programming skills. This website was made using HTML, CSS, and Javascript.</p>
+                <div class="btn-group">
+                    <a class="btn">Github Repo</a>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <h3>Flashcard App (In Development)</h3>
+                <p>An interactive app useful for users to create and save flashcards to use for studying now or in the future.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="input">
+                <i class="ri-mail-line"></i>
+                <a href="mailto: dav104.dev@gmail.com">dav104.dev@gmail.com</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class = "copyright">© All Rights Reserved | David Lindsey</p>
+    </footer>
+
+
+    <!--
+    <div class = "container">
+        <p id = "about__me"> Hello, I am a Computer Science major at the University of Pittsburgh. I am currently a sophomore with a 3.4 GPA. I have been programming for ~6 years, starting in my
+            freshman year of highschool. I am a highly motivated student with a robust work-ethic who is always trying to learn more about coding.
+        </p>
+    </div>
+
+    <div class = "container">
+        <h2 id = "language__proficiency" class = "titles">Languange Proficiencey</h2>
+            <ul id = "language__list" class = "list">
+                <li>Java: 6 years</li>
+                <li>Python: 2 years</li>
+                <li>Javascript: ~1 year</li>
+                <li>HTML: ~ 1 year</li>
+                <li>CSS: ~ 1 year</li>
+            </ul>
+    </div>
+    <div class = "container">
+        <h2 id = "notable__classes" class = "titles">Notable Classes Taken</h2>
+            <ol id = "classes__list" class = "list">
+                <li>Data Structures and Algorithms 1</li>
+                <li>Data Structures and Algorithms 2</li>
+                <li>Intermedediate Programming</li>
+                <li>Discrete Structures</li>
+                <li>Big Ideas in Computing and Information</li>
+                <li>Assemlby Language</li>
+                <li>Linear Algebra</li>
+            </ol>
+    </div>
+    <div class = "container">
+        <h2 id = "projects__header" class = "titles">Personal Projects</h2>
+            <h3 id = "personal__website">Personal Website</h3>
+                <p>An interactive website that displays my qualities and skills created using HTML, CSS, and Javascript</p>
+    </div>
+    <div class = "container">
+        <h2 id = "work__header">Work Experience</h2>
+            <h3 id = "bethel__bakery">Bethel Bakery</h3>
+                <p>Prep Crew Team Member: Woerked with a team to efficiently and effectively clean and prepare a Bakery for future endeavors.
+                    Communication and team-work was an important daily requirement that I exemplified within my team.</p>
+    </div>
+    <div class = "container">
+        <h2 id = "achievemnts__affiliations" class = "titles">Achievements/Affiliations</h2>
+            <ul id = "achievement list" class = "list">
+                <li>Eagle Scout</li>
+                <li>Computer Science Club member at Pitt</li>
+            </ul>
+    </div> -->
+
+    <script src = "./main.js"></script>
+
+</body>
+</html>
